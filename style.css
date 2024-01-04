@@ -21,7 +21,14 @@ body {
 
 .stats-container {
     display: flex;
+    align-items: center;
+    cursor: pointer;
+    transition: box-shadow .3s;
 }
+
+.stats-container:hover {
+    box-shadow: 0 0 30px lightblue;
+  }
 
 .stats-card {
     background-color: #a8b0bc;
@@ -72,4 +79,14 @@ button {
     padding: 1%;
     margin: 1%;
     border-radius: 7px;
+}
+
+#link {
+    position: absolute;
+    right: 1%;
+    font-size: large;
+}
+
+#link:hover {
+    box-shadow: 0 0 30px white;
 }
