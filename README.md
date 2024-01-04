@@ -36,7 +36,9 @@ GIF created with Kap
 
 ## Notes
 
-Describe any challenges encountered while building the app.
+The biggest challenge encountered was when adding the class "game-card" to the *newDiv* (new game card). The reason being 
+is that adding the class was not affecting newDiv and thus I created another solution which was simply making a new div 
+within *newDiv* and giving that div "game-card".
 
 ## License
 
